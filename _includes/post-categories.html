@@ -1,0 +1,11 @@
+<div class="list pt2 pb4">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a class="f6 dib pa2 link gray bg-near-white hover-bg-moon-gray br2" href="{{site.baseurl}}/categories/#{{ category | slugify }}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>

@@ -1,0 +1,31 @@
+{% if page.author_bio != false %}
+<div class="dt mt3">
+  <div class="dtc v-mid">
+    <img src="{{ site.baseurl }}/images/author.jpg" alt="author" class="db br-100 h3 w3"/>
+  </div>
+
+  <div class="dtc v-mid pl3">
+    <a class="f5 fw4 link lh-title black dim" href="{{ site.author_name_url }}">{{ site.author_name }}</a>
+    <a class="f6 link dim br-pill ba bw1 green ph2 ml2 dn dib-ns" href="{{ site.author_button_url }}" target="_blank">{{ site.author_button }}</a>
+
+    <div class="f6 fw3 lh-copy light-silver">{{ site.author_bio }}</div>
+
+    <div class="f6 fw3 lh-copy light-silver">
+      {% if page.last_modified_at %}
+      <span>{{ site.post.updated }} {{ page.last_modified_at | date: site.date_format }}</span>
+      {% else %}
+      <span>{{ page.date | date: site.date_format }}</span>
+      {% endif %}
+
+      <span class="ttl">
+        &middot;
+        {% if page.minutes %}
+          {{ page.minutes }} {{ site.post.minute_read }}
+        {% else %}
+          {{ minutes }} {{ site.post.minute_read }}
+        {% endif %}
+      </span>
+    </div>
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+{% if site.show_author_bio %}
+  {% include author_bio.html %}
+{% endif %}
+
+<h1 class="mb1 fw6">{{ page.title }}</h1>
+{% if page.subtitle %}
+<h2 class="mv0 fw3 light-silver">{{ page.subtitle }}</h2>
+{% endif %}
+
+<article class="f5 f4-ns fw3 lh-copy">
+  {{ content }}
+</article>
+
+{% include post-categories.html %}
+
+{% if page.cta %}
+  {% include cta/{{page.cta}}.html %}
+{% endif %}
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}

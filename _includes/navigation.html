@@ -1,0 +1,10 @@
+<nav class="fr-l mt2-l">
+  {% for link in site.data.navigation %}
+    {% if link.url contains 'http' %}
+        {% assign domain = '' %}
+        {% else %}
+        {% assign domain = site.url %}
+    {% endif %}
+    <a href="{{ link.url }}" class="link dim black f5 dib-ns db mt2 mr3-m ml3-l" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+  {% endfor %}
+</nav>

@@ -1,0 +1,58 @@
+# Site Settings
+title: Desired Persona
+email: your-email@domain.com
+description: Your awesome site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+date_format: "%-d %b %Y"
+
+
+# Theme Settings
+theme: minimal-jekyll-theme
+twitter_username: desiredpersona
+
+# Author Bio
+show_author_bio: true
+author_name: Desired Persona
+author_name_url: /about/
+author_bio: Affiliate marketer. Media buyer. Developer.
+author_button: Subscribe
+author_button_url: /newsletter/
+
+#Post Meta Data
+post:
+  updated: 'Updated'
+  minute_read: 'Min Read'
+
+# Disqus Comments
+disqus:
+    shortname: jekyll-theme-dev
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+
+# Tracking
+google_analytics: UA-XXXXXXXX-N
+google_tag_manager:
+google_plus_id:
+bing_verification:
+
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+ input: GFM
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+permalink: /:title/
+
+sass:
+  compressed: true
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]

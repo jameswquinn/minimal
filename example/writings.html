@@ -1,0 +1,30 @@
+---
+layout: landing
+permalink: /writings/
+---
+
+<h1 class="mt0">Writings</h1>
+
+{% for post in site.posts %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+  {% capture prev_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% capture prev_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+
+  {% if forloop.first %}
+    <h4 class="fw4 mb1">{{ this_month }} {{ this_year }}</h4>
+  {% endif %}
+  <article class="lh-copy fw3">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </article>
+
+  {% unless forloop.last %}
+    {% if this_year != prev_year %}
+      <h4 class="fw4 mb1">{{ prev_month }} {{ prev_year }}</h4>
+    {% else %}
+      {% if this_month != prev_month %}
+        <h4 class="fw4 mb1">{{ prev_month }} {{ prev_year }}</h4>
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}

@@ -1,0 +1,31 @@
+/*
+
+    TABLES
+
+*/
+
+table {
+  border-collapse: collapse;
+  border: 1px solid $light-silver;
+  border-spacing: 0;
+}
+
+table a {
+  text-decoration: none;
+}
+
+thead {
+  background-color: $table-header;
+  border-bottom: 1px solid $table-border;
+}
+
+th {
+  padding: 0.4em;
+  border-right: 1px solid $table-border;
+}
+
+td {
+  padding: 0.4em;
+  border-bottom: 1px solid $table-border;
+  border-right: 1px solid $table-border;
+}

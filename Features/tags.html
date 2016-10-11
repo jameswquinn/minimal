@@ -1,0 +1,19 @@
+---
+layout: landing-page
+permalink: /tags/
+---
+<h1>Tags</h1>
+{% for tag in site.tags %}
+  {% capture tag_name %}{{ tag | first }}{% endcapture %}
+  <div id="#{{ tag_name | slugify }}"></div>
+  <a name="{{ tag_name | slugify }}"></a>
+  <p></p>
+
+  <h4>{{ tag_name }}</h4>
+  {% for post in site.tags[tag_name] %}
+  <article class="ml3">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+  </article>
+  {% endfor %}
+{% endfor %}
+<br>

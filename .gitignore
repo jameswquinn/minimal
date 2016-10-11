@@ -1,0 +1,7 @@
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+.jekyll-metadata
+minimal-jekyll-theme-*.gem
+minimal-jekyll-theme.gemspec

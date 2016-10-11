@@ -1,0 +1,19 @@
+---
+layout: landing
+permalink: /categories/
+---
+<h1 class="mt0">Categories</h1>
+{% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <div id="#{{ category_name | slugify }}"></div>
+  <a name="{{ category_name | slugify }}"></a>
+  <p></p>
+
+  <h4 class="ttc fw4 mb1">{{ category_name }}</h4>
+  {% for post in site.categories[category_name] %}
+  <article class="fw3 ml3-ns">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+  </article>
+  {% endfor %}
+{% endfor %}
+<br>

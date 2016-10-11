@@ -1,0 +1,23 @@
+/*
+
+    CODEBLOCKS
+
+*/
+
+pre {
+  background-color: $code-background;
+}
+
+code {
+  background-color: $code-background;
+  padding: 0 .2rem;
+}
+
+pre > code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+// Remove Tachyons 40px left/right margins on codeblocks
+figure { margin: 1em 0; }
