@@ -34,21 +34,12 @@
 		theme: minimal-jekyll-theme
 
 
-4. Create a css/minimal.scss file that includes:
-
-
-		---
-		---
-
-		@import "minimal";
-
-
-5. And then run Bundler:
+4. And then run Bundler:
 
 		bundle install
 
 
-6. To view your new theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
+5. To view your new theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
 
 ## Usage
 ### Archive Page
