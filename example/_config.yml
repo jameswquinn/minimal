@@ -21,16 +21,19 @@ author:
     button: Subscribe
     button_url: /newsletter/
 
+
 # Post Meta Data
 post:
     updated: 'Updated'
     minute_read: 'Min Read'
+
 
 # Disqus Comments
 disqus:
     shortname: jekyll-theme-dev
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+
 
 # Tracking
 google_analytics: UA-XXXXXXXX-N
