@@ -28,7 +28,6 @@
 		end
 
 
-
 3. Add this line to your Jekyll site’s config.yml file:
 
 

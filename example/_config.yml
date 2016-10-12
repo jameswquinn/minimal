@@ -12,17 +12,26 @@ theme: minimal-jekyll-theme
 twitter_username: desiredpersona
 
 # Author Bio
-show_author_bio: true
-author_name: Desired Persona
-author_name_url: /about/
-author_bio: Affiliate marketer. Media buyer. Developer.
-author_button: Subscribe
-author_button_url: /newsletter/
+#show_author_bio: true
+#author_name: Desired Persona
+#author_name_url: /about/
+#author_bio: Affiliate marketer. Media buyer. Developer.
+#author_button: Subscribe
+#author_button_url: /newsletter/
 
-#Post Meta Data
+# Author Bio
+show_author_bio: true
+author:
+    name: Desired Persona
+    name_url: /about/
+    bio: Affiliate marketer. Media buyer. Developer.
+    button: Subscribe
+    button_url: /newsletter/
+
+# Post Meta Data
 post:
-  updated: 'Updated'
-  minute_read: 'Min Read'
+    updated: 'Updated'
+    minute_read: 'Min Read'
 
 # Disqus Comments
 disqus:
@@ -42,17 +51,18 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
- input: GFM
- hard_wrap: false
- syntax_highlighter: rouge
+    input: GFM
+    hard_wrap: false
+    syntax_highlighter: rouge
 
 permalink: /:title/
 
 sass:
-  compressed: true
+    compressed: true
 
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
