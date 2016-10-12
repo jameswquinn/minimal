@@ -11,13 +11,6 @@ date_format: "%-d %b %Y"
 theme: minimal-jekyll-theme
 twitter_username: desiredpersona
 
-# Author Bio
-#show_author_bio: true
-#author_name: Desired Persona
-#author_name_url: /about/
-#author_bio: Affiliate marketer. Media buyer. Developer.
-#author_button: Subscribe
-#author_button_url: /newsletter/
 
 # Author Bio
 show_author_bio: true
@@ -63,6 +56,6 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  
+
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
