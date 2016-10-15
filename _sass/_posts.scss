@@ -21,3 +21,16 @@ dt {
  dd {
    margin-left: 1em;
  }
+
+// Abbreviation
+ abbr[title] {
+    text-decoration: none;
+    cursor: help;
+    border-bottom: 1px dotted $black;
+}
+
+// Strong/ Bold text
+b,
+strong {
+    font-weight: bold;
+}

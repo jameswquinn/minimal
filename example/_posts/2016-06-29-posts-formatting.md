@@ -40,7 +40,7 @@ Multi line blockquote with a cite reference:
 >Everybody is a genius.
 >But if you judge a fish by its ability to climb a tree, It will live its whole life believing that it is stupid
 >
-><cite>&ndash;Albert Einstein</cite>
+><cite>---Albert Einstein</cite>
 
 ***
 
@@ -73,6 +73,7 @@ Multi line blockquote with a cite reference:
 ***
 
 ## Codeblocks
+
 This Jekyll theme also offers powerful support for code snippets:
 
 ```ruby
@@ -82,16 +83,6 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-
-***
-
-## Links
-
-This is a green [link created with markdown](http://google.com){: class="green b dim"}
-
-This is a blue [link created with markdown](http://google.com){: class="blue dim"}
-
-This is a pink [link created with markdown](http://google.com){: class="pink dim"}
 
 ***
 
@@ -141,125 +132,47 @@ Definition
 
 ## Buttons
 
-A full list of <a href="http://tachyons.io/components/#buttons" target="blank" >button styles</a>
+### Primary Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-blue" href="#0">Button Text</a>
 
-<div class="ph3">
-  <h1 class="f6 fw6 ttu tracked">Basic button</h1>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-near-black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-gray" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-mid-gray" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-light-purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-hot-pink" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-pink" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-navy" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green" href="#0">Button Text</a>
-</div>
-<div class="ph3 mt4">
-  <h1 class="f6 fw6 ttu tracked">Basic Button with Thin Border</h1>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib near-black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib mid-gray" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib light-purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib hot-pink" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-pink" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib navy" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-green" href="#0">Button Text</a>
-</div>
-<div class="ph3 mt4">
-  <h1 class="f6 fw6 ttu tracked">Basic Button with Border</h1>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib near-black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib dark-gray" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib mid-gray" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib light-purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib hot-pink" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib dark-pink" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib navy" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib dark-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib dark-green" href="#0">Button Text</a>
-</div>
-<div class="ph3 mt4">
-  <h1 class="f6 fw6 ttu tracked">Basic Button with Thick Border</h1>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib near-black" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib dark-gray" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib mid-gray" href="#0">Button Text</a>
-</div>
-<div class="ph3">
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib light-purple" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib hot-pink" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib dark-pink" href="#0">Button Text</a>
-</div>
-<div class="ph3 mb4">
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib navy" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib dark-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib dark-green" href="#0">Button Text</a>
-</div>
+### Success Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-green" href="#0">Button Text</a>
 
+### Warning Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-orange" href="#0">Button Text</a>
 
+### Danger Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-red" href="#0">Button Text</a>
 
+### Info Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-light-blue" href="#0">Button Text</a>
 
+### Inverse Button
+<a class="f5 f4-ns link dim br2 ba bw1 ph3 pv2 mb2 dib" href="#0">Button Text</a>
 
-```html
-<a href="#" class="btn--success">Success Button</a>
-```
+### Primary Pill
+<a class="f5 f4-ns grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue" href="#0">Button Text</a>
 
-[Primary Button](#){: .btn}
-[Success Button](#){: .btn .btn--success}
-[Warning Button](#){: .btn .btn--warning}
-[Danger Button](#){: .btn .btn--danger}
-[Info Button](#){: .btn .btn--info}
-[Inverse Button](#){: .btn .btn--inverse}
-[Light Outline Button](#){: .btn .btn--light-outline}
+### Inverse Pill
+<a class="f5 f4-ns grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib" href="#0">Button Text</a>
 
-```markdown
-[Primary Button Text](#link){: .btn}
-[Success Button Text](#link){: .btn .btn--success}
-[Warning Button Text](#link){: .btn .btn--warning}
-[Danger Button Text](#link){: .btn .btn--danger}
-[Info Button Text](#link){: .btn .btn--info}
-[Inverse Button](#link){: .btn .btn--inverse}
-[Light Outline Button](#link){: .btn .btn--light-outline}
-```
+### X-Large Button
+<a class="f3 f2-ns link dim br2 ph3 pv2 mb2 dib white bg-blue" href="#0">X-Large Button</a>
 
-[X-Large Button](#){: .btn .btn--x-large}
-[Large Button](#){: .btn .btn--large}
-[Default Button](#){: .btn}
-[Small Button](#){: .btn .btn--small}
+### Large Button
+<a class="f4 f3-ns link dim br2 ph3 pv2 mb2 dib white bg-blue" href="#0">Large Button</a>
 
-```markdown
-[X-Large Button](#link){: .btn .btn--x-large}
-[Large Button](#link){: .btn .btn--large}
-[Default Button](#link){: .btn}
-[Small Button](#link){: .btn .btn--small}
-```
+### Default Button
+<a class="f5 f4-ns link dim br2 ph3 pv2 mb2 dib white bg-blue" href="#0">Button Text</a>
+
+### Small Button
+<a class="f6 link dim br2 ph3 pv2 mb2 dib white bg-blue" href="#0">Small Button</a>
 
 ***
 
 ## Notices
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+Coming soon. PR welcome :smirk:
 
 ***
 
@@ -268,12 +181,23 @@ A full list of <a href="http://tachyons.io/components/#buttons" target="blank" >
 ### Address Tag
 
 <address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+  1 Infinite Loop<br/> Cupertino, CA 95014<br/> United States
 </address>
 
-### Anchor Tag (aka. Link)
+## Links / Anchor Tag
 
-This is an example of a [link](http://apple.com "Apple").
+This [is a link](http://google.com "Google") using the link color set in `_sass/_variables.scss`.
+
+This is a blue [link created with markdown](http://google.com){: class="blue dim"}
+
+This is a bold green [link created with markdown](http://google.com){: class="green b dim"}
+
+This is a pink [link created with markdown](http://google.com){: class="pink dim"}
+
+This is a red [link created with markdown](http://google.com){: class="red dim"}
+
+This is a black [link created with markdown](http://google.com){: class="black dim"}
+
 
 ### Abbreviation Tag
 
@@ -285,10 +209,6 @@ The abbreviation CSS stands for "Cascading Style Sheets".
 
 "Code is poetry." ---<cite>Automattic</cite>
 
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
 ### Strike Tag
 
 This tag will let you <strike>strikeout text</strike>.
@@ -299,12 +219,25 @@ The emphasize tag should *italicize* text.
 
 ### Insert Tag
 
-This tag should denote <ins>inserted</ins> text.
+This tag should denote updated text <ins>inserted</ins> in a blog post.
 
 ### Keyboard Tag
 
 This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
 
+### Code Tag
+
+You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+
+### Preformatted Tag
+This tag styles large blocks of code
+
+```css
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+```
 
 ### Strong Tag
 
@@ -324,9 +257,11 @@ This allows you to denote <var>variables</var>.
 
 ### Horizontal Rules
 
-To create a horizontal rule just use `***` on its own line anywhere in your posts like so.
+To create a horizontal rule, just use `***` on a new line anywhere in your posts like this
 
 ***
+
+That was easy huh?
 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
