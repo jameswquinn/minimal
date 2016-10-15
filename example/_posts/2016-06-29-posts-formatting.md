@@ -172,7 +172,7 @@ Definition
 
 ## Notices
 
-Coming soon. PR welcome :smirk:
+Coming soon. PR welcome
 
 ***
 
@@ -223,11 +223,11 @@ This tag should denote updated text <ins>inserted</ins> in a blog post.
 
 ### Keyboard Tag
 
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
+This scarcely known <kbd>keyboard tag</kbd> emulates represents user input and produces an inline element displayed in the browser's default monospace font, which is usually styled like the `<code>` tag.
 
 ### Code Tag
 
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+Its probably a really good idea to wrap your code within code tags. This is how you do it `<title>HTML for Baby's</title>`. You don't want any surprises.
 
 ### Preformatted Tag
 This tag styles large blocks of code
@@ -241,15 +241,15 @@ This tag styles large blocks of code
 
 ### Strong Tag
 
-This tag shows **bold text**.
+This tag shows **bold text, try not to overuse it.**
 
 ### Subscript Tag
 
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+My girlfriend is a medical scientist, so i bet she knows what H<sub>2</sub>O and 0<sub>2</sub> means, right Rachel? Anyway the subscript tag should have pushed the "2" down.
 
 ### Superscript Tag
 
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
+Oh more science yay! Albert Einstein E = MC<sup>2</sup>, The superscript tag should lift the 2 up.
 
 ### Variable Tag
 
@@ -261,7 +261,15 @@ To create a horizontal rule, just use `***` on a new line anywhere in your posts
 
 ***
 
+### Mark Tag
+
+The <mark>mark tag reminds me of my teacher</mark>. She used to highlight all the spelling and grammar mistakes in my exam papers. I bet she went through a lot of pens.
+
+
+
 That was easy huh?
+
+If i missed anything let me know. PR's welcome.
 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
