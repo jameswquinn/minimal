@@ -1,16 +1,16 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Writings
   url: /writings/
 
+- title: Newsletter
+  url: /newsletter/
+  
 - title: Resources
   url: /resources/
 
-- title: Newsletter
-  url: /newsletter/
+- title: About
+  url: /about/
 
 - title: Contact
   url: mailto:hello@example.com

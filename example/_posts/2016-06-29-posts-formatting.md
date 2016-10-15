@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Post titles look pretty amazing
+title:      Post titles look pretty damn amazing
 subtitle:   Subtitles are optional and look just as good
 date:       2016-06-29 13:20:50 +0100
 categories:
@@ -14,6 +14,8 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+***
+
 # Heading One
 
 ## Heading Two
@@ -26,6 +28,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 ###### Heading Six
 
+***
+
 ## Blockquotes
 Single line blockquote:
 
@@ -37,6 +41,8 @@ Multi line blockquote with a cite reference:
 >But if you judge a fish by its ability to climb a tree, It will live its whole life believing that it is stupid
 >
 ><cite>&ndash;Albert Einstein</cite>
+
+***
 
 ## Tables
 
@@ -61,6 +67,7 @@ Multi line blockquote with a cite reference:
 |=============================|
 | Foot1   | Foot2   | Foot3   |
 
+***
 
 ## Codeblocks
 This Jekyll theme also offers powerful support for code snippets:
@@ -73,6 +80,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+***
+
 ## Links
 
 This is a green [link created with markdown](http://google.com){: class="green b dim"}
@@ -80,6 +89,8 @@ This is a green [link created with markdown](http://google.com){: class="green b
 This is a blue [link created with markdown](http://google.com){: class="blue dim"}
 
 This is a pink [link created with markdown](http://google.com){: class="pink dim"}
+
+***
 
 ## Definition Lists
 
@@ -94,6 +105,8 @@ Startup
 
 Do It Live
 :   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+
+***
 
 ## Unordered Lists (Nested)
 
@@ -110,6 +123,8 @@ Do It Live
   * List item three
   * List item four
 
+***
+
 ## Ordered List (Nested)
 
   1. List item one
@@ -124,6 +139,8 @@ Do It Live
   2. List item two
   3. List item three
   4. List item four
+
+***
 
 ## Buttons
 
@@ -239,6 +256,8 @@ A full list of <a href="http://tachyons.io/components/#buttons" target="blank" >
 [Default Button](#link){: .btn}
 [Small Button](#link){: .btn .btn--small}
 ```
+
+***
 
 ## Notices
 

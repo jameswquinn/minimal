@@ -4,8 +4,10 @@
 
 */
 
-// Headings
-article h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $light-gray;
+// Horizontal Rules
+article hr {
+      height: 1px;
+      border: 0;
+      border-top: $light-gray 1px solid;
+      padding: 0;
   }

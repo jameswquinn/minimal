@@ -4,7 +4,9 @@
 
 :boom: **This theme is a work in progress.** :boom:
 
-- Theme uses [Tachyons Css](http://tachyons.io)
+This Theme uses:
+- [Tachyons Css](http://tachyons.io)
+- System-fonts
 - Theme works with > Jekyll 3.3
 
 ## Installation

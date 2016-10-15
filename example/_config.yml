@@ -57,8 +57,10 @@ sass:
     compressed: true
 
 gems:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-admin
 
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
