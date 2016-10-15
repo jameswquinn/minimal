@@ -11,3 +11,14 @@ article hr {
       border-top: $light-gray 1px solid;
       padding: 0;
   }
+
+
+// Definition List
+dt {
+   margin-top: 1em;
+   font-weight: bold;
+ }
+
+ dd {
+   margin-left: 1em;
+ }

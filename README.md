@@ -5,7 +5,7 @@
 :boom: **This theme is a work in progress.** :boom:
 
 This Theme uses:
-- [Tachyons Css](http://tachyons.io)
+- [Tachyons Sass](https://github.com/tachyons-css/tachyons-sass) - Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible with [Tachyons](http://tachyons.io).
 - System-fonts
 - Theme works with > Jekyll 3.3
 
@@ -44,17 +44,20 @@ This Theme uses:
 5. To view your new theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
 
 ## Usage
+
+The example folder contains a working demo of this theme.
+
 ### Archive Page
-Copy `writings.html` page from `example` folder in to your site root directory.
+Copy `writings.html` page from `example` folder in to your sites root directory.
 
 ### Categories & Tags Pages
-Copy `categories.html` page and `tags.html` from `example` folder in to your site root directory.
+Copy `categories.html` page and `tags.html` from `example` folder in to your sites root directory.
 
 ### Author Image
-Add your `author.jpg` image in `images` folder.
+Create `assets/images` folder in your sites root directory and add your `author.jpg` image.
 
-### navigation
-Create `_data` folder and add `navigation.yml` file found in `example` folder.
+### Navigation
+Create `_data` folder in your sites root directory and add `navigation.yml` file found in `example` folder.
 
 ## Contributing
 

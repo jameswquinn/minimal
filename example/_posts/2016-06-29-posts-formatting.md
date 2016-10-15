@@ -67,6 +67,9 @@ Multi line blockquote with a cite reference:
 |=============================|
 | Foot1   | Foot2   | Foot3   |
 
+
+<br>
+
 ***
 
 ## Codeblocks
@@ -92,23 +95,18 @@ This is a pink [link created with markdown](http://google.com){: class="pink dim
 
 ***
 
-## Definition Lists
+## List Types
+
+### Definition Lists
 
 Definition List Title
 :   Definition list division.
 
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+Definition
+:   An exact statement or description of the nature, scope, or meaning of something: *our definition of what constitutes poetry*.
 
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
 
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
-
-***
-
-## Unordered Lists (Nested)
+### Unordered Lists (Nested)
 
   * List item one
       * List item one
@@ -123,9 +121,8 @@ Do It Live
   * List item three
   * List item four
 
-***
 
-## Ordered List (Nested)
+### Ordered List (Nested)
 
   1. List item one
       1. List item one
@@ -264,6 +261,8 @@ A full list of <a href="http://tachyons.io/components/#buttons" target="blank" >
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
 
+***
+
 ## HTML Tags
 
 ### Address Tag
@@ -296,7 +295,7 @@ This tag will let you <strike>strikeout text</strike>.
 
 ### Emphasize Tag
 
-The emphasize tag should _italicize_ text.
+The emphasize tag should *italicize* text.
 
 ### Insert Tag
 
@@ -323,8 +322,11 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 
 This allows you to denote <var>variables</var>.
 
+### Horizontal Rules
 
+To create a horizontal rule just use `***` on its own line anywhere in your posts like so.
 
+***
 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
