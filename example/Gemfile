@@ -1,20 +1,10 @@
 source "https://rubygems.org"
 
-# Themes
-#gem "minima"
+# Jekyll
+gem "jekyll", "3.3.0"
+
+# Theme
 gem "minimal-jekyll-theme" , :path => "../"
-
-# Jekyll gem
-# gem "jekyll", "3.3.0"
-
-# Github Pages gem
-#gem "github-pages", group: :jekyll_plugins
-
-# Github Pages gem - Latest Development Branch
-gem "github-pages", github: "github/pages-gem", branch: "jekyll-v3-3-0" # Jekyll 3.3.0 version
-
-# Github Pages gem - Specific version
-#gem "github-pages", "97"
 
 # Plugins
 group :jekyll_plugins do
@@ -22,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-admin'
+  gem 'jemoji'
 end

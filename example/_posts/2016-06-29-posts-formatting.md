@@ -241,7 +241,7 @@ This tag styles large blocks of code
 
 ### Strong Tag
 
-This tag shows **bold text, try not to overuse it.**
+This tag makes **bold text, try not to overuse it tho.**
 
 ### Subscript Tag
 

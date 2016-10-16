@@ -1,6 +1,6 @@
 # Minimal Jekyll Theme
 
-![Minimal Jekyll Theme Screenshot](http://i.imgur.com/FH7mlHH.jpg)
+![Minimal Jekyll Theme Screenshot](/screenshot.jpg)
 
 :boom: **This theme is a work in progress.** :boom:
 
@@ -18,15 +18,21 @@ This Theme uses:
 2. Add the following lines to your Jekyll site’s Gemfile:  
 
 
+		source "https://rubygems.org"
+
+		# Jekyll
+		gem "jekyll"
+
 		# Theme
 		gem "minimal-jekyll-theme"
 
 		# Plugins
 		group :jekyll_plugins do
-		  gem 'jekyll-feed'
-		  gem 'jekyll-sitemap'
-		  gem 'jekyll-seo-tag'
-		  gem 'jekyll-admin'
+			gem 'jekyll-feed'
+			gem 'jekyll-sitemap'
+			gem 'jekyll-seo-tag'
+			gem 'jekyll-admin'
+			gem 'jemoji'
 		end
 
 

@@ -5,7 +5,7 @@
 */
 
 // Horizontal Rules
-article hr {
+hr {
       height: 1px;
       border: 0;
       border-top: $light-gray 1px solid;
@@ -29,7 +29,7 @@ dt {
     border-bottom: 1px dotted $black;
 }
 
-// Strong/ Bold text
+// Strong/ Bold Text
 b,
 strong {
     font-weight: bold;
