@@ -7,11 +7,11 @@
 
 ## Features
 
-- Compatible with Jekyll 3.3.x and GitHub Pages
-- Support for Jekyll's built-in Sass/SCSS preprocessor
-- Several layout options (single, archive, landing pages)
-- SEO optimized using Jekyll-seo-tag
-- Optional comments ([Disqus](https://disqus.com/),
+- Compatible with Jekyll 3.3.x and GitHub Pages.
+- Support for Jekyll's built-in Sass/SCSS preprocessor & [Tachyons-sass](https://github.com/tachyons-css/tachyons-sass).
+- Several layout options (single, archive, landing pages).
+- SEO optimized using [Jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag).
+- Optional [Disqus comments](https://disqus.com/).
 - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 - System-fonts
 
