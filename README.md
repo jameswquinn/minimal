@@ -4,10 +4,17 @@
 
 :boom: **This theme is a work in progress.** :boom:
 
-This Theme uses:
-- [Tachyons Sass](https://github.com/tachyons-css/tachyons-sass) - Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible with [Tachyons](http://tachyons.io).
+
+## Features
+
+- Compatible with Jekyll 3.3.x and GitHub Pages
+- Support for Jekyll's built-in Sass/SCSS preprocessor
+- Several layout options (single, archive, landing pages)
+- SEO optimized using Jekyll-seo-tag
+- Optional comments ([Disqus](https://disqus.com/),
+- Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 - System-fonts
-- Theme works with > Jekyll 3.3
+
 
 ## Installation
 
@@ -49,6 +56,7 @@ This Theme uses:
 
 5. To view your new theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`.
 
+
 ## Usage
 
 The example folder contains a working demo of this theme.
@@ -64,6 +72,22 @@ Create `assets/images` folder in your sites root directory and add your `author.
 
 ### Navigation
 Create `_data` folder in your sites root directory and add `navigation.yml` file found in `example` folder.
+
+
+## Credits
+
+### Creator
+
+**Desired Persona**
+
+- <https://desiredpersona.com>
+- <https://twitter.com/desiredpersona>
+- <https://github.com/desiredpersona>
+
+### Other:
+
+- [Jekyll](http://jekyllrb.com/)
+- [Tachyons](http://tachyons.io)
 
 ## Contributing
 
